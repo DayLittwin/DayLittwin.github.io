@@ -4,7 +4,7 @@ body {
 
     width: 100%;
 
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     background-color: darkslategray;
 }
@@ -13,14 +13,39 @@ header {
     margin-right: auto;
     margin-left: auto;
     width: 100%;
-    padding-left: 60px;
-    padding-right: 60px;
+
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
     background: black;
     color: white;
     font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+nav {
+    overflow: hidden;
+    width: 100%;
+    background: rgb(183,132,40);
+    font-size: 15px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    color: white;
+}
+
+nav a:hover {
+    background: rgba(190,144,61);
+}
+
+nav a:active {
+    background: rgba(164,118,36);
 }
 
 .container {
@@ -43,8 +68,6 @@ footer {
     margin-right: auto;
     margin-left: auto;
     width: 100%;
-    padding-left: 60px;
-    padding-right: 60px;
     padding-top: 60px;
     padding-bottom: 60px;
     text-align: center;
