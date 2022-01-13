@@ -24,6 +24,7 @@ header {
 }
 
 nav {
+    float: right;
     overflow: hidden;
     width: 100%;
     background: rgb(183,132,40);
@@ -38,23 +39,27 @@ nav a {
     text-align: center;
     padding: 14px 16px;
     color: white;
+    border-bottom: 3px solid transparent;
 }
 
 nav a:hover {
     background: rgba(190,144,61);
+    border-bottom: 3px solid rgba(164,118,36);
 }
 
 nav a:active {
     background: rgba(164,118,36);
+    border-bottom: 3px solid rgba(128,92,28);
 }
 
 .container {
+    border-top: 3px solid rgba(43,72,72);
+    border-bottom: 3px solid rgba(43,72,72);
     display: flex;
     padding: 20px;
 }
 
 .photo {
-    
     height: 500px;
     margin-right: 15px;
 }
