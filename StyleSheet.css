@@ -166,6 +166,11 @@ strong {
     padding-left: 0px;
 }
 
+.resumedesc {
+    padding-top: 15px;
+    font-size: 15px;
+}
+
 footer {
     display: flex;
     align-items: center;
