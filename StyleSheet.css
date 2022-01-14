@@ -57,7 +57,7 @@ nav a:active {
     border-bottom: 3px solid rgba(128,92,28);
 }
 
-#about {
+.title {
     padding-top: 60px;
 
     font-size: 25px;
@@ -72,16 +72,18 @@ nav a:active {
     border-top: 3px solid rgba(43,72,72);
 }
 
-.photo {
+.gradphoto {
     float: left;
     padding: 60px 20px 0px 0px;
     width: 20%;
-    max-width: 100%;
-    min-width: 20%;
     object-fit: cover;
     height: 20%;
-    max-height: 100%;
-    min-height: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+    .photo {
+        width: 40%;
+    }
 }
 
 .article {
@@ -89,18 +91,18 @@ nav a:active {
     font-size: 15px;
 }
 
+strong {
+    color: gold;
+}
+
 .subtitle {
     padding: 20px 20px 0px 0px;
-    font-size: 20px;
+    font-size: 18px;
     color: red;
 }
 
 .skillbars {
     padding-left: 0px;
-    list-style: none;
-}
-
-ul {
     list-style: none outside;
 }
 
@@ -137,6 +139,23 @@ ul {
     background-color: darkblue;
     height: 15px;
     width: 65%;
+}
+
+.listtitle {
+    left: 0px;
+    font-size: 18px;
+    color: white;
+}
+
+.listsubtitle {
+    right: 0px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.719);
+}
+
+.listresume{
+    list-style: none outside;
+    padding-left: 0px;
 }
 
 footer {
