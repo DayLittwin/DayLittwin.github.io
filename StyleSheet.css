@@ -9,9 +9,9 @@ body {
     width: 100%;
 
     font-family: 'Times New Roman', Times, serif;
-    color: white; 
+    color: black; 
     margin: 0;
-    background-color: darkslategray;
+    background-color: white;
 }
 
 header {
@@ -25,6 +25,7 @@ header {
 
     height: 90px;
     background: black;
+    color: white;
     font-size: 30px;
     font-family:'Times New Roman', Times, serif;
 }
@@ -73,7 +74,6 @@ nav a:active {
     margin-top: 20px;
     padding: 20px;
     margin-bottom: 135px;
-    border-top: 3px solid rgba(43,72,72);
 }
 
 .gradphoto {
@@ -98,7 +98,7 @@ nav a:active {
 }
 
 strong {
-    color: gold;
+    color: darkblue;
 }
 
 .subtitle {
@@ -151,14 +151,14 @@ strong {
 .listtitle {
     left: 0px;
     font-size: 18px;
-    color: white;
+    color: black;
 }
 
 .listsubtitle {
     line-height: 1;
     right: 0px;
     font-size: 16px;
-    color: rgba(255, 255, 255, 0.719);
+    color: gray;
 }
 
 .listresume{
@@ -175,7 +175,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top: 3px solid rgba(43,72,72);
     margin-right: auto;
     margin-left: auto;
     width: 100%;
