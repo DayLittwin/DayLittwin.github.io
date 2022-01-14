@@ -82,7 +82,9 @@ nav a:active {
 
 @media only screen and (max-width: 600px) {
     .photo {
+        float: left;
         width: 40%;
+        object-fit: cover;
         height: 40%
     }
 }
